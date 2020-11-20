@@ -38,8 +38,8 @@ Scenario Outline: As a user I should not be able to login using invalid email ad
 
   Examples:
   |username|password|validation|
-  |shenali@eyepax.com|532733|Authentication failed, please try again.|
-  |shenali.t@eyepax.com|bjsd|Authentication failed, please try again.|
+  |email|532733|Authentication failed, please try again.|
+  |email@email.com|bjsd|Authentication failed, please try again.|
 ```
 
 Sample **Step Definition** File
